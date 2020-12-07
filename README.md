@@ -1,7 +1,7 @@
 # Note Taker
 
 ## Description
-A quick and easy view into a team and a way to get their contact information.
+Write notes and stuff.
 
 ## Check it out
 [Note Taker](TODO)
