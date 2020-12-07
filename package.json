@@ -1,0 +1,57 @@
+{
+    "name": "team-viewinator",
+    "version": "1.0.0",
+    "description": "A quick and easy way to keep notes.",
+    "main": "app.js",
+    "directories": {
+      "doc": "docs",
+      "lib": "lib"
+    },
+    "scripts": {
+      "test": "jest",
+      "dev": "./node_modules/nodemon/bin/nodemon.js index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/joe-riley/team-viewinator.git"
+    },
+    "keywords": [
+      "Bootcamp",
+      "Silly Video Requirements",
+      "Week 11",
+      "Take Notes"
+    ],
+    "author": "Joe Riley",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/joe-riley/note-taker/issues"
+    },
+    "homepage": "https://github.com/joe-riley/note-taker#readme",
+    "dependencies": {
+      "express": "^4.17.1",
+      "express-handlebars": "^5.2.0",
+      "handlebars": "^4.7.6",
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.6",
+      "eslint-config-react-app": "^6.0.0",
+      "jest": "^26.6.3",
+      "prettier-eslint": "^12.0.0"
+    },
+    "prettier": {
+      "arrowParens": "avoid",
+      "singleQuote": true
+    },
+    "eslintConfig": {
+      "extends": "react-app",
+      "rules": {
+        "eqeqeq": "error",
+        "no-console": "warn",
+        "no-debugger": "warn",
+        "no-var": "error",
+        "prefer-const": "error",
+        "no-shadow": "error"
+      }
+    }
+  }
+  
